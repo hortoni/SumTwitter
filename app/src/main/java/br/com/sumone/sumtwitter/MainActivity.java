@@ -66,9 +66,7 @@ public class MainActivity extends BaseActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_logout) {
-//            startActivity(new Intent(this, ProfileActivity.class));
             Twitter.logOut();
             startActivity(new Intent(this, LoginActivity.class));
             finish();

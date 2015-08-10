@@ -21,7 +21,6 @@ public class LoginActivity extends BaseActivity implements Constants{
     private static final String TWITTER_KEY = "zSxGSMEYNegKQF4e3ADfWqwa4";
     private static final String TWITTER_SECRET = "0F0E8fHfJRaIKeSQuTNDuFqXSoWYZbVPDkgCHIeTqcgx9UTDjP";
 
-//    TwitterLoginButton btnSignInTwitter;
     private TwitterLoginButton loginButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,20 +35,10 @@ public class LoginActivity extends BaseActivity implements Constants{
 
             @Override
             public void success(Result<TwitterSession> result) {
-                // Do something with result, which provides a TwitterSession for making API calls
-                TwitterSession session = result.data;
-
-//                TwitterSession session = Twitter.getSessionManager().getActiveSession();
-//                TwitterAuthToken authToken = session.getAuthToken();
-//                String token = authToken.token;
-//                String secret = authToken.secret;
-
             }
 
             @Override
             public void failure(TwitterException exception) {
-                // Do something on failure
-//                Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_internet), Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -68,7 +57,6 @@ public class LoginActivity extends BaseActivity implements Constants{
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         loginButton.onActivityResult(requestCode, resultCode, data);
-//        Toast.makeText(LoginActivity.this, "resultCode: " + resultCode, Toast.LENGTH_SHORT).show();
         if (resultCode == -1) {
             startActivity(new Intent(this, MainActivity.class));
             finish();

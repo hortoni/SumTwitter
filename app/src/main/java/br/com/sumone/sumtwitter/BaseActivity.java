@@ -23,8 +23,6 @@ public class BaseActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             setStatusBar();
         }
-//        setActionBar();
-//        getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
@@ -44,8 +42,6 @@ public class BaseActivity extends AppCompatActivity {
             toolbar.setBackgroundColor(getResources().getColor(R.color.action_bar_color));
             setSupportActionBar(toolbar);
         }
-//        getSupportActionBar().setHomeButtonEnabled(true);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 
