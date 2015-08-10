@@ -13,7 +13,7 @@ A integração com o Twitter foi feita através da API <a href="https://get.fabr
 
 
 # Aplicativo
-A primeira tela do aplicativo é a tela de login. Com um botão de login, essa tela é responsável por autenticar o usuário em sua conta pessoal do twitter e implementar o Single Sing On (SSO).
+A primeira tela do aplicativo é a tela de login. Com um botão de login, essa tela é responsável por autenticar o usuário em sua conta pessoal do Twitter e implementar o Single Sing On (SSO).
 
 Ao conectar em sua conta, o usuário poderá observar 2 fragmentos na tela. Um contendo sua timeline com os últimos 50 tweets e o outro com um mapa com os tweets geolocalizáveis. No fragmento da timeline é possível recarregar os tweets com o gesto de swipe de cima para baixo.
 
