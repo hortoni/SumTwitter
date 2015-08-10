@@ -17,7 +17,7 @@ A integração com o Twitter foi feita através da API Fabric (https://get.fabri
 # Aplicativo
 A primeira tela do aplicativo é a tela de login. Com um botão de login, essa tela é responsável por autenticar o usuário em sua conta pessoal do twitter e implementar o Single Sing On (SSO).
 
-Ao conectar em sua conta, o usuário poderá observar 2 fragmentos na tela. Um contendo sua timeline com os últimos 50 tweets e o outro com um mapa com os tweets geolocalizados. No fragmento da timeline é possível recarregar os tweets com o gesto de swipe de cima para baixo.
+Ao conectar em sua conta, o usuário poderá observar 2 fragmentos na tela. Um contendo sua timeline com os últimos 50 tweets e o outro com um mapa com os tweets geolocalizáveis. No fragmento da timeline é possível recarregar os tweets com o gesto de swipe de cima para baixo.
 
 Ao clicar em alguem tweet em sua timeline ou em seu mapa, a tela de profile será chamada e mostrará os tweets do usuário correspondente.
 
