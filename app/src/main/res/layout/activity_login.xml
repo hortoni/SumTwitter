@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background"
+    tools:context="br.com.sumone.sumtwitter.LoginActivity">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:text="@string/app_name"
+        android:textSize="@dimen/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowRadius="5"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/login_vertical_margin"
+        />
+    <TextView
+        android:id="@+id/txt_slogan"
+        android:text="@string/slogan"
+        android:layout_below="@+id/txt_title"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/login_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true" />
+
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitter_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+</RelativeLayout>

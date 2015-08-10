@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorButtonNormal">@color/action_bar_color</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+    <!-- Popup Menu Text Color styles -->
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/action_bar_color</item>
+    </style>
+</resources>

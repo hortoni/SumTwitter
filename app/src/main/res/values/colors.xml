@@ -1,0 +1,6 @@
+<resources>
+    <color name="action_bar_color">#4A90E2</color>
+    <color name="status_bar_color">#2079E1</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SumTwitter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="logout">Logout</string>
+
+    <string name="map">Map</string>
+    <string name="timeline">Timeline</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="slogan">Tweet the world out</string>
+    <string name="sing_in_twitter">Sign in with Twitter</string>
+    <string name="error_internet">Por favor, conecte-se a Internet para efetuar o login.</string>
+
+    <string name="loaded_tweets">Tweets atualizados</string>
+    <string name="loading_tweets">Carregando últimos tweets</string>
+    <string name="loading_error">Não foi possível carregar os tweets.</string>
+    <string name="connection_error">Por favor, conecte-se a Internet ao entrar no aplicativo</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>
